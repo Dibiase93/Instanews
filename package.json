@@ -1,0 +1,24 @@
+{
+  "name": "instanews",
+  "version": "1.0.0",
+  "description": "Working with dynamic data from the NYT api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ajax",
+    "rest",
+    "api"
+  ],
+  "author": "Andrew DiBiase",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-prettyerror": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-terser": "^1.1.7"
+  }
+}
