@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>InstaNews</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-    <h1>Hello good sir</h1>
-    <h2>neato</h2>
-    <h3>check this shit out, weowow</h3>
-
-
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="flex-container">
+    <header class="header-container">
+      <div class="logo-container">
+        <img id="logo" src="images/nyt-logo.svg" alt="New York Times logo" />
+      </div>
+      <div class="select-list-container">
+        <h1>Choose a section:</h1>
+        <select name="sections">
+          <option value="sections" selected>Sections ...</option>
+          <option value="section1">Section 1</option>
+          <option value="section2">Section 2</option>
+          <option value="section3">Section 3</option>
+          <option value="section4">Section 4</option>
+        </select>
+      </div>
+    </header>
+    <footer class="copyright-container">
+      <p>&#169; Copyright 2016 INSTANEWS</p>
+    </footer>
     <script src="./build/js/script.min.js"></script>
-</body>
-
+  </body>
 </html>
