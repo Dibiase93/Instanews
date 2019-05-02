@@ -11,17 +11,14 @@ $(function() {
           ".json?api-key=CiPKzuEgMEr5iAez74KClBIAOmT4iTlJ"
       }).done(function(data) {
         $.each(data.results, function(index, value) {
-          console.log(value);
-          //   const articles = `<div> ${value.title} ${value.abstract}
-          //   ${value.background} ${value.url}</div>`;
-          $(".sections").append(`<div>${value.title}</div>`);
-          $(".sections").append(`<div>${value.abstract}</div>`);
           const newLink = value.url;
           const bg = value.multimedia[4].url;
+          const title = value.title;
+          const content = value.abstract;
           console.log(bg);
-          //   $(".sections").prop("background", `${value.background}`);
+          bg;
           $(".sections").append(
-            `<a href= "${newLink}" style="background-image: url(${bg})"></a>`
+            `<a href= "${newLink}" title="${title}" style="background-image: url(${bg}); background-repeat: no-repeat; background-size: cover; background-position: center;"><p>${content}</p></a>`
           );
         }); //end of .each
       }); //end of .done
