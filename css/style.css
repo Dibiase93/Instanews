@@ -13,6 +13,7 @@ body {
   font-size: 16px;
   color: #ffffff;
 }
+/* end of global css */
 
 .flex-container {
   max-width: 1600px;
@@ -22,12 +23,12 @@ body {
   justify-content: space-around;
   text-align: center;
   min-height: 100vh;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .header-container {
   min-height: 100vh;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +40,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 100%;
   margin-bottom: 50px;
 }
@@ -47,6 +48,14 @@ body {
 .footer p {
   font: #c2c2c2;
 }
+
+.sections {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* end of Flex containers */
 
 @media screen and (min-width: 600px) {
   .header-container {
@@ -58,10 +67,13 @@ body {
     width: 100%;
     order: 3;
   }
+  .sports-section h1 {
+    display: none;
+  }
 }
 /* end of tablet */
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1000px) {
   .header-container {
     justify-content: left;
   }

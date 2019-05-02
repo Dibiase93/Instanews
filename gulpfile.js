@@ -11,7 +11,7 @@ gulp.task("lint", function() {
     .pipe(prettyError())
     .pipe(eslint())
     .pipe(eslint.format())
-    .pipe(eslint.failAdfterError());
+    .pipe(eslint.failAfterError());
 });
 
 gulp.task(
@@ -41,5 +41,5 @@ gulp.task("watch", function() {
   gulp.watch("js/*.js", gulp.series("scripts"));
 });
 
-//default gulp runs everything at once in this case
+// default gulp runs everything at once in this case
 gulp.task("default", gulp.parallel("browser-sync", "watch"));
