@@ -28,7 +28,6 @@ body {
 }
 
 .header-container {
-  min-height: 100vh;
   /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
@@ -55,6 +54,18 @@ body {
   width: 100%;
   flex-wrap: wrap;
   flex-grow: 1;
+}
+.sections a {
+  display: flex;
+  text-align: end;
+  display: block;
+  height: 300px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.article-content {
+  color: green;
 }
 /* end of Flex containers */
 

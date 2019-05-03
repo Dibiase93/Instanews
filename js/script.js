@@ -18,7 +18,13 @@ $(function() {
           console.log(bg);
           bg;
           $(".sections").append(
-            `<a href= "${newLink}" title="${title}" style="background-image: url(${bg}); background-repeat: no-repeat; background-size: cover; background-position: center;"><p>${content}</p></a>`
+            `<a href= "${newLink}" 
+                title="${title}" 
+                style="background-image: url(${bg});
+                 background-repeat: no-repeat; 
+                 background-size: cover; 
+                 background-position: top center;">
+                <p class= "article-content">${content}</p></a>`
           );
         }); //end of .each
       }); //end of .done
