@@ -1,0 +1,17 @@
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin column-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/font/hinted-OpenSans-Bold.eot");
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("../../fonts/hinted-OpenSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/hinted-OpenSans-Bold.woff2") format("woff2"),
+    url("../../assets/fonts/hinted-OpenSans-Bold.woff") format("woff"),
+    url("../../assets/fonts/hinted-OpenSans-Bold.ttf") format("truetype"),
+    url("../../assets/fonts/hinted-OpenSans-Bold.svg#OpenSans-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/hinted-OpenSansLight-Italic.eot");
+  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"),
+    url("../../assets/fonts/hinted-OpenSansLight-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/hinted-OpenSansLight-Italic.woff2") format("woff2"),
+    url("../../assets/fonts/hinted-OpenSansLight-Italic.woff") format("woff"),
+    url("../../assets/fonts/hinted-OpenSansLight-Italic.ttf") format("truetype"),
+    url("../../assets/fonts/hinted-OpenSansLight-Italic.svg#OpenSansLight-Italic")
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/hinted-OpenSans-Light.eot");
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url("../../fonts/hinted-OpenSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/hinted-OpenSans-Light.woff2") format("woff2"),
+    url("../../assets/fonts/hinted-OpenSans-Light.woff") format("woff"),
+    url("../../assets/fonts/hinted-OpenSans-Light.ttf") format("truetype"),
+    url("../../assets/fonts/hinted-OpenSans-Light.svg#OpenSans-Light")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/hinted-OpenSans-BoldItalic.eot");
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+    url("../../assets/fonts/hinted-OpenSans-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/hinted-OpenSans-BoldItalic.woff2") format("woff2"),
+    url("../../assets/fonts/hinted-OpenSans-BoldItalic.woff") format("woff"),
+    url("../../assets/fonts/hinted-OpenSans-BoldItalic.ttf") format("truetype"),
+    url("../../assets/fonts/hinted-OpenSans-BoldItalic.svg#OpenSans-BoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('hinted-OpenSans-Bold.eot');
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('hinted-OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-OpenSans-Bold.woff2') format('woff2'),
+        url('hinted-OpenSans-Bold.woff') format('woff'),
+        url('hinted-OpenSans-Bold.ttf') format('truetype'),
+        url('hinted-OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('hinted-OpenSansLight-Italic.eot');
+    src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'),
+        url('hinted-OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-OpenSansLight-Italic.woff2') format('woff2'),
+        url('hinted-OpenSansLight-Italic.woff') format('woff'),
+        url('hinted-OpenSansLight-Italic.ttf') format('truetype'),
+        url('hinted-OpenSansLight-Italic.svg#OpenSansLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('hinted-OpenSans-Light.eot');
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+        url('hinted-OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('hinted-OpenSans-Light.woff2') format('woff2'),
+        url('hinted-OpenSans-Light.woff') format('woff'),
+        url('hinted-OpenSans-Light.ttf') format('truetype'),
+        url('hinted-OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('hinted-OpenSans-BoldItalic.eot');
+    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+        url('hinted-OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('hinted-OpenSans-BoldItalic.woff2') format('woff2'),
+        url('hinted-OpenSans-BoldItalic.woff') format('woff'),
+        url('hinted-OpenSans-BoldItalic.ttf') format('truetype'),
+        url('hinted-OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
