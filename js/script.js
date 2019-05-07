@@ -28,8 +28,8 @@ $(function() {
                 style="background-image: url(${bg});
                  background-repeat: no-repeat; 
                  background-size: cover; 
-                 background-position: top center;">
-                <p class= "article-content">${content}</p></a>`
+                 background-position: top center;"><div class= "article-container">
+                <p class= "article-content">${content}</p></div></a>`
             );
             $("#loading").hide();
           }); //end of .each

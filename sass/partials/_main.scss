@@ -10,8 +10,12 @@ html {
 
 body {
   background-color: black;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffff;
+
+  @include tablet {
+    font-size: 16px;
+  }
 }
 /* end of global css */
 
@@ -29,6 +33,8 @@ body {
   @include column-flex;
   max-width: 1240px;
   flex-grow: 1;
+  margin-top: 40px;
+  margin-bottom: 20px;
 
   @include tablet {
     flex-direction: row;
@@ -55,8 +61,11 @@ body {
   }
 }
 
-.footer p {
-  font: #c2c2c2;
+footer {
+  margin-top: 65px;
+  .p {
+    font: #c2c2c2;
+  }
 }
 
 .sections {
@@ -67,16 +76,22 @@ body {
   flex-grow: 1;
 
   a {
-    text-align: end;
+    text-align: center;
     display: flex;
     height: 300px;
     width: 100%;
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.7);
 
-    .article-content {
+    .article-container {
+      background: rgba(0, 0, 0, 0.7);
       position: relative;
       margin-top: auto;
-      color: green;
+
+      .article-content {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+      }
     }
 
     @include tablet {
@@ -89,6 +104,27 @@ body {
   }
 }
 
-#loading {
-  display: none;
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  width: 100%;
+
+  #loading {
+    width: 20%;
+    height: 20vw;
+    display: none;
+  }
 }
+
+// .loading-container {
+//   #loading {
+//     // display: none;
+//     // width: 20%;
+//     // position: absolute;
+//     // top: 100%;
+//     // left: 50%;
+//     // transform: translate(-50%, -50%);
+//   }
+// }
