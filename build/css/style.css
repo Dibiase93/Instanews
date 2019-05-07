@@ -441,10 +441,16 @@ body {
           flex-grow: 1; }
   .sections a {
     text-align: end;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: 300px;
     width: 100%;
     text-decoration: none; }
+    .sections a .article-content {
+      position: relative;
+      margin-top: auto;
+      color: green; }
     @media (min-width: 600px) {
       .sections a {
         width: 50%; } }
@@ -452,5 +458,5 @@ body {
       .sections a {
         width: 25%; } }
 
-.article-content {
-  color: green; }
+#loading {
+  display: none; }
