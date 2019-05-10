@@ -1,7 +1,7 @@
 $(function() {
   $("#select-form").on("change", function() {
     const selected = $(this).val();
-    if (selected !== "") {
+    if (selected !== "sections") {
       $(".sections").html("");
       $("#loading").show();
       $.ajax({

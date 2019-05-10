@@ -357,13 +357,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   max-width: 1600px;
   margin: 0 auto;
   -ms-flex-pack: distribute;
@@ -377,9 +370,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -389,7 +379,7 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin-top: 40px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
   @media (min-width: 600px) {
     .header-container {
       -webkit-box-orient: horizontal;
@@ -404,6 +394,29 @@ body {
       -webkit-box-pack: left;
           -ms-flex-pack: left;
               justify-content: left; } }
+  .header-container .logo {
+    width: 40%; }
+  .header-container .select-list-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header-container .select-list-container label {
+      font-family: "Open Sans", sans;
+      font-weight: 300;
+      margin-top: 20px; }
+    .header-container .select-list-container #select-form {
+      font-family: "Open Sans", sans;
+      font-weight: 300;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      margin-top: 10px; }
 
 .copyright-container {
   display: -webkit-box;
@@ -472,7 +485,8 @@ footer {
       position: relative;
       margin-top: auto;
       -webkit-transform: translateY(100%);
-              transform: translateY(100%); }
+              transform: translateY(100%);
+      width: 100%; }
       .sections a .article-container .article-content {
         color: white;
         font-family: "Open Sans", sans-serif; }
