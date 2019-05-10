@@ -4,12 +4,10 @@ const rename = require("gulp-rename");
 const browserSync = require("browser-sync");
 const eslint = require("gulp-eslint");
 const prettyError = require("gulp-prettyerror");
-// add just these 3 lines below
 const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
 const cssnano = require("gulp-cssnano");
 
-// add a new task from the slides, gulp sass
 gulp.task("sass", function() {
   return gulp
     .src("./sass/style.scss")

@@ -408,15 +408,15 @@ body {
         -ms-flex-align: center;
             align-items: center; }
     .header-container .select-list-container label {
-      font-family: "Open Sans", sans;
+      font-family: "Open Sans", sans-serif;
       font-weight: 300;
       margin-top: 20px; }
     .header-container .select-list-container #select-form {
-      font-family: "Open Sans", sans;
-      font-weight: 300;
       -ms-flex-line-pack: center;
           align-content: center;
-      margin-top: 10px; }
+      margin-top: 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300; }
 
 .copyright-container {
   display: -webkit-box;

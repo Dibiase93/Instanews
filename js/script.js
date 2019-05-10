@@ -1,4 +1,5 @@
 $(function() {
+  $("#select-form").selectric();
   $("#select-form").on("change", function() {
     const selected = $(this).val();
     if (selected !== "sections") {
@@ -31,6 +32,7 @@ $(function() {
                  background-position: top center;"><div class= "article-container">
                 <p class= "article-content">${content}</p></div></a>`
             );
+            // .selectric();
             $("#loading").hide();
           }); //end of .each
         })
