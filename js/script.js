@@ -1,5 +1,7 @@
 $(function() {
-  $("#select-form").selectric();
+  $("#select-form").selectric({
+    minWidth: 50
+  });
   $("#select-form").on("change", function() {
     const selected = $(this).val();
     if (selected !== "sections") {
