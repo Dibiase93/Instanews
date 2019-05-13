@@ -34,8 +34,8 @@ Simply open link provided.
 
 ### Challenges
 
-I felt alot more comfortable this time through with flexbox, my biggest struggle with this project was trying to intergrate accessability. I was having issues getting the reader to read my hiddin H1 as well as reading my selectric plugin.
+I felt alot more comfortable this time through, with flexbox. My biggest struggle with this project was trying to intergrate accessability. I was having issues getting the reader to read my hiddin H1 as well as reading my selectric plugin.
 
 #### Learning Curve
 
-Alot of my learning curve of CSS was answered when I was introduced to SASS/SCSS, the code seemed alot easier to orginize. I learnt how to use a plugin on my own, which was tough at first but made sense once I figured it out and now seems pretty easy. Also, of course what I mentioned above, but a big learning curve was seeing how 1 big function can be altered based off a variable.
+Alot of my learning curve of CSS was answered, when I was introduced to SASS/SCSS, the code seemed alot easier to orginize. I learnt how to use a plugins on my own. First it was tough, but made sense once I figured out how to use plugins. Now, looking back seems pretty easy. Also, of course what I mentioned above, but a big learning curve was seeing how 1 big function can be altered to have multiple uses based off variables.
