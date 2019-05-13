@@ -11,13 +11,13 @@ html {
 body {
   background-color: black;
   font-size: 14px;
-  color: #ffffff;
+  color: $main-font-color;
 
   @include tablet {
     font-size: 16px;
   }
 }
-/* end of global css */
+// end of global css
 
 .flex-container {
   display: flex;
@@ -28,6 +28,7 @@ body {
   text-align: center;
   min-height: 100vh;
 }
+// end of total page container
 
 .header-container {
   @include column-flex;
@@ -76,6 +77,7 @@ body {
     }
   }
 }
+// End of header container
 
 .copyright-container {
   display: flex;
@@ -83,6 +85,13 @@ body {
   align-items: center;
   width: 100%;
   margin-bottom: 50px;
+  margin-top: 65px;
+
+  p {
+    color: #c2c2c2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+  }
 
   @include tablet {
     width: 100%;
@@ -92,15 +101,7 @@ body {
     margin-left: 30px;
   }
 }
-
-footer {
-  margin-top: 65px;
-  p {
-    color: #c2c2c2;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8rem;
-  }
-}
+// end of copyright/ footer container
 
 .sections {
   display: flex;
@@ -108,6 +109,8 @@ footer {
   width: 100%;
   flex-wrap: wrap;
   flex-grow: 1;
+
+  // animation code start
 
   a {
     text-align: center;
@@ -135,10 +138,11 @@ footer {
       margin-top: auto;
       transform: translateY(100%);
       width: 100%;
-      // transform: translateY(100%);
+
+      //animation code finish
 
       .article-content {
-        color: white;
+        color: $main-font-color;
         font-family: "Open Sans", sans-serif;
       }
     }
@@ -152,6 +156,7 @@ footer {
     }
   }
 }
+// end of article sections
 
 .loading-container {
   display: flex;
@@ -175,3 +180,4 @@ footer {
     }
   }
 }
+// end of Loading svg
