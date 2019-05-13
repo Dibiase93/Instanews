@@ -1,6 +1,6 @@
 $(function() {
   $("#select-form").selectric({
-    minWidth: 50
+    openOnHover: true
   });
   $("#select-form").on("change", function() {
     const selected = $(this).val();
@@ -26,7 +26,7 @@ $(function() {
             const title = value.title;
             const content = value.abstract;
             $(".sections").append(
-              `<a href= "${newLink}" 
+              `<a href= "${newLink}" alt="${selected} article"
                 title="${title}" 
                 style="background-image: url(${bg});
                  background-repeat: no-repeat; 

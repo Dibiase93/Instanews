@@ -35,6 +35,7 @@ body {
   flex-grow: 1;
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 100%;
 
   @include tablet {
     flex-direction: row;
@@ -45,8 +46,24 @@ body {
   }
 
   .logo {
-    width: 40%;
+    width: 30%;
+
+    @include tablet {
+      width: 80%;
+    }
   }
+
+  .hidden-h1 {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
   .select-list-container {
     @include column-flex;
     align-items: center;
@@ -56,13 +73,6 @@ body {
       font-weight: 300;
       margin-top: 20px;
       margin-bottom: 20px;
-    }
-
-    #select-form {
-      align-content: center;
-      margin-top: 20px;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 300;
     }
   }
 }
@@ -85,8 +95,10 @@ body {
 
 footer {
   margin-top: 65px;
-  .p {
-    font: #c2c2c2;
+  p {
+    color: #c2c2c2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
   }
 }
 
@@ -152,5 +164,14 @@ footer {
     width: 20%;
     height: 20vw;
     display: none;
+
+    @include tablet {
+      width: 15%;
+      height: 12vw;
+    }
+    @include desktop {
+      width: 30%;
+      height: 18vw;
+    }
   }
 }
