@@ -23,7 +23,7 @@ eg:
       url:
       "https://api.nytimes.com/svc/topstories/v2/" +
       selected +
-      ".json?api-key=CiPKzuEgMEr5iAez74KClBIAOmT4iTlJ"
+      "(.json?api-key=(your api key here))"
       })
 
        const selected = $(this).val();
