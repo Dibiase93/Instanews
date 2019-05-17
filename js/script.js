@@ -3,7 +3,11 @@ $(function() {
     openOnHover: true
   });
   $("#select-form").on("change", function() {
+
     const selected = $(this).val();
+    if (selected == "sections") {
+      $(".sections").html("");
+  }
     if (selected !== "sections") {
       $(".sections").html("");
       $("#loading").show();

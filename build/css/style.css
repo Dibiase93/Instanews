@@ -597,7 +597,7 @@ body {
           -ms-flex-pack: left;
               justify-content: left; } }
   .header-container .logo {
-    width: 30%; }
+    width: auto; }
     @media (min-width: 600px) {
       .header-container .logo {
         width: 80%; } }
