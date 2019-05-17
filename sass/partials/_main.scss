@@ -45,10 +45,6 @@ body {
   @include desktop {
     justify-content: left;
   }
-
-  .logo {
-    width: 30%;
-
     @include tablet {
       width: 80%;
     }
@@ -71,9 +67,9 @@ body {
 
     label {
       font-family: "Open Sans", sans-serif;
-      font-weight: 300;
       margin-top: 20px;
       margin-bottom: 20px;
+      font-weight: 300;
     }
   }
 }

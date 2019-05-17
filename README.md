@@ -1,6 +1,17 @@
-# INSTANEWS
+# INSTANEWS 
 
-My 3rd project at Red Academy. Instanews is so far, my favourite project we've done. I was introduced to writing scss with partials including mixins, and variables. In this project I intergrated a selectric plugin and, 1 type of hover animations that did 2 animations. One was to translate the position of the article content to slide into view and the other was to highlight the article using opacity from 0.7 to 1.
+- Responsive web design using Mobible first.
+- Media queries ;
+  Tablet @min-width: 600px; 
+  Desktop @min-width: 1000px;
+  Body font size 14px
+- Using Ajax, "get" method to pull data from New York Times API , personally selected six categories.
+- Project created using HTML, SCSS,Jquery
+- Compiled Javacript and Style.Css found in BUILD folder 
+
+
+
+#### My 3rd project at Red Academy. Instanews is so far, my favourite project we've done. I was introduced to writing scss with partials including mixins, and variables. In this project I intergrated a selectric plugin and, 1 type of hover animations that did 2 animations. One was to translate the position of the article content to slide into view and the other was to highlight the article using opacity from 0.7 to 1.
 
 eg:
 
@@ -38,4 +49,4 @@ I felt alot more comfortable this time through, with flexbox. My biggest struggl
 
 #### Learning Curve
 
-Alot of my learning curve of CSS was answered, when I was introduced to SASS/SCSS, the code seemed alot easier to orginize. I learnt how to use a plugins on my own. First it was tough, but made sense once I figured out how to use plugins. Now, looking back seems pretty easy. Also, of course what I mentioned above, but a big learning curve was seeing how 1 big function can be altered to have multiple uses based off variables.
+Alot of my learning curve of CSS was answered, when I was introduced to SASS/SCSS, the code seemed alot easier to organize. I learnt how to use a plugins on my own. First it was tough, but made sense once I figured out how to use plugins. Now, looking back seems pretty easy. Also, of course what I mentioned above, but a big learning curve was seeing how 1 big function can be altered to have multiple uses based off variables.
