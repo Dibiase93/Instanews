@@ -376,6 +376,7 @@ template {
     height: 38px;
     line-height: 38px;
     background-color: #00a1d9;
+    border-radius: 10px;
     color: #bbb;
     text-align: center;
     font: 0/0 a;
@@ -473,6 +474,7 @@ template {
   top: 100%;
   left: 0;
   background: #00a1d9;
+  border-radius: 10px;
   border: 1px solid #e6e6e6;
   z-index: -1;
   -webkit-box-shadow: 0 0 10px -6px;
@@ -695,7 +697,7 @@ body {
               transform: translateY(100%);
       width: 100%; }
       .sections a .article-container .article-content {
-        color: white;
+        color: #ffffff;
         font-family: "Open Sans", sans-serif; }
     @media (min-width: 600px) {
       .sections a {
