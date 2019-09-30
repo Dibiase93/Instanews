@@ -1,6 +1,6 @@
 # INSTANEWS
 
-My 3rd project at Red Academy. Instanews is so far, my favourite project we've done. I was introduced to writing scss with partials including mixins, and variables. In this project I intergrated a selectric plugin and, 1 type of hover animations that did 2 animations. One was to translate the position of the article content to slide into view and the other was to highlight the article using opacity from 0.7 to 1.
+Instanews is one of my favourite project I've done. I was introduced to writing SCSS with partials, mixins, and variables. In this project I intergrated a selectric plugin and a hover effect that did 2 animations. One was to translate the position of the article content to slide into view and the other was to highlight the article using opacity from 0.7 to 1.
 
 eg:
 
@@ -18,7 +18,13 @@ eg:
 - JavaScript (AJAX from a NYTimes API)
 - Selectric plugin
 
-Overall, my favourite part of the project was using Scss and being able to use an API. Instanews opened my eyes to the power of Javascript, and specifically variables. I found it so amazing that I was able to use 1 variable, to change the specific text in the API that selected all of our article content, I thought I would have to re write all the javascript for each selected API.
+#### Learning Curve
+
+- Learning how to integrate AJAX request.
+- Introduction to SASS/SCSS.
+- Learning how to dynamically change an option with a variable.
+
+Overall, my favourite part of the project was using Scss and being able to use an API. Instanews opened my eyes to the power of Javascript, and specifically variables. I found it so amazing that I was able to use the value of selected option, to dynamically change the New York Times API to display new information.
 
 eg:
 
@@ -32,14 +38,10 @@ eg:
 
        const selected = $(this).val();
 
-## Instructions
+### Instructions
 
 Simply open link provided.
 
-### Challenges
+#### Challenges
 
-I felt alot more comfortable this time through, with flexbox. My biggest struggle with this project was trying to intergrate accessability. I was having issues getting the reader to read my hiddin H1 as well as reading my selectric plugin.
-
-#### Learning Curve
-
-Alot of my learning curve of CSS was answered, when I was introduced to SASS/SCSS, the code seemed alot easier to orginize. I learnt how to use a plugins on my own. First it was tough, but made sense once I figured out how to use plugins. Now, looking back seems pretty easy. Also, of course what I mentioned above, but a big learning curve was seeing how 1 big function can be altered to have multiple uses based off variables.
+My biggest struggle with this project was trying to intergrate accessability. I was having issues getting the reader to read my hiddin H1 as well as reading my selectric plugin.
