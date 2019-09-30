@@ -11,8 +11,12 @@ eg:
         transform: translateY(0);
       }
 
-The rest of code can be found next to comment tags.
-Find //animation code.
+## Technologies Used
+
+- Sass/Scss
+- Html
+- JavaScript (AJAX from a NYTimes API)
+- Selectric plugin
 
 Overall, my favourite part of the project was using Scss and being able to use an API. Instanews opened my eyes to the power of Javascript, and specifically variables. I found it so amazing that I was able to use 1 variable, to change the specific text in the API that selected all of our article content, I thought I would have to re write all the javascript for each selected API.
 
