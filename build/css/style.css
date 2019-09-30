@@ -695,7 +695,7 @@ body {
               transform: translateY(100%);
       width: 100%; }
       .sections a .article-container .article-content {
-        color: white;
+        color: #ffffff;
         font-family: "Open Sans", sans-serif; }
     @media (min-width: 600px) {
       .sections a {
@@ -718,13 +718,13 @@ body {
   width: 100%; }
   .loading-container #loading {
     width: 20%;
-    height: 20vw;
+    height: auto;
     display: none; }
     @media (min-width: 600px) {
       .loading-container #loading {
         width: 15%;
-        height: 12vw; } }
+        height: auto; } }
     @media (min-width: 1000px) {
       .loading-container #loading {
         width: 30%;
-        height: 18vw; } }
+        height: auto; } }

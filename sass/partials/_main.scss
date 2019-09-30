@@ -167,16 +167,16 @@ body {
 
   #loading {
     width: 20%;
-    height: 20vw;
+    height: auto;
     display: none;
 
     @include tablet {
       width: 15%;
-      height: 12vw;
+      height: auto;
     }
     @include desktop {
       width: 30%;
-      height: 18vw;
+      height: auto;
     }
   }
 }
