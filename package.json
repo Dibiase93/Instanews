@@ -14,7 +14,7 @@
   "author": "Andrew DiBiase",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-cssnano": "^2.1.3",
